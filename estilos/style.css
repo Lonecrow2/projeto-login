@@ -70,7 +70,7 @@ p{
 #formulario {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 1142px;
     padding: 10px;
 
 }
@@ -81,6 +81,7 @@ p{
 }
 
 .form-all{
+   
     margin-top: 9px;
     height: 30px;
     border-radius: 8px;
@@ -94,6 +95,7 @@ p{
 }
 
 #lost-pass-id{
+    
     margin-top: 3px;
     border-radius: 7px;
     padding: 4px;
@@ -104,33 +106,50 @@ p{
 }
 
 #entrar-id{
-   
+    height: 40px;
     background-color: #630000;
     color: white;
 
 }
 
 #login-id{
+    border: 2px solid #630000;
     margin-top: 1.4px;
     height: 28px;
-    border-radius: 8px;
-    width: 90%;
+    border-radius: 0px 8px 8px 0px;
+    width:92.7%;
     text-align: center;
     font-size: 17px;
 } 
 
+.form-all2::before{
+    content: "\263A";
+    background-color: #630000;
+    padding: 6px 7px 8px 7px;
+    
+}
+
 #password-id{
+    border: 2px solid #630000;
     height: 28px;
-    border-radius: 8px;
-    width: 89.5%;
+    border-radius: 0px 8px 8px 0px;
+    width: 92.7%;
     text-align: center;
     font-size: 17px;
     
 }
 
+#password-div::before {
+    content: "\1F511";
+    color: white;
+    background-color: #630000;
+    padding: 6px 1px 8px 7px;
+}
 
 
-#password-div{
+
+
+/* #password-div{
     padding: 2px;
     height: 35px;
     border-radius: 8px;
@@ -158,5 +177,5 @@ p{
     content: "\1F511";
     color: white;
     font-size: 20px;
-    padding: 5px;
-}  
+    padding: 5px;}  */
+ 
