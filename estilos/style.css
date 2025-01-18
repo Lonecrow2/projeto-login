@@ -30,6 +30,7 @@ h1 {
 }
 
 a{
+    margin-top: 4px;
     text-decoration: none;
 }
 
@@ -40,21 +41,18 @@ p{
 #login {
     display: flex;
     overflow: hidden;
-    background-color: grey;
+    background-color: #ffffff5e;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 5px solid #5a0000;
-    box-shadow: inset 0px 0px 5px 4px black;
-
+    box-shadow: 0px 0px 5px 4px black;
     height: 50vh;
     width: 160vh;
 }
 
 
 #imagem {
-    box-shadow: inset -6px 0px 5px 4px black;
     background-image: url(../imagens/back-red.jpg);
     background-size: 100% 100%;
     display: flex;
@@ -83,33 +81,82 @@ p{
 }
 
 .form-all{
+    margin-top: 9px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.form-all2{
+    
+    margin-top: 9px;
     height: 30px;
     border-radius: 8px;
 }
 
 #lost-pass-id{
+    margin-top: 3px;
     border-radius: 7px;
-    padding: 6px;
+    padding: 4px;
     text-align: center;
     font-size: 17px;
-    background-color: #5a0000;
-    
-    color: white;
+    background-color: #ffffff;
+    color: rgb(179, 0, 0);
 }
 
 #entrar-id{
+   
     background-color: #630000;
     color: white;
 
 }
 
 #login-id{
+    margin-top: 1.4px;
+    height: 28px;
+    border-radius: 8px;
+    width: 90%;
     text-align: center;
     font-size: 17px;
 } 
 
 #password-id{
+    height: 28px;
+    border-radius: 8px;
+    width: 89.5%;
     text-align: center;
     font-size: 17px;
+    
 }
 
+
+
+#password-div{
+    padding: 2px;
+    height: 35px;
+    border-radius: 8px;
+    border-radius: 10px;
+    background-color: #5a0000;
+    
+}
+
+#email-div{
+    padding: 2px;
+    height: 35px;
+    border-radius: 8px;
+    border-radius: 10px;
+    background-color: #5a0000;
+}
+
+#email-div::before{
+    content: "\263A";
+    color: #ffbc02;
+    font-size: 24px;
+    padding: 5px;
+}
+
+#password-div::before {
+    content: "\1F511";
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}  
