@@ -1,0 +1,90 @@
+@charset "UTF8";
+
+@media (max-width: 600px){
+
+
+body,
+html {
+
+}
+
+body {
+    
+}
+
+* {
+  
+}
+
+main {
+
+}
+
+h1 {
+    
+}
+
+p {
+    
+}
+
+a {
+  
+}
+
+form {
+    
+}
+
+/* \/DIV\/ */
+
+#formulario {
+   
+}
+
+#formulario2 {
+   
+}
+
+.div-all {
+    
+}
+
+/* \/IMAGEM\/ */
+
+#imagem {
+   
+}
+
+#imagem>img {
+   
+}
+
+/* \/LABEL\/ */
+
+#login-lab {
+   
+}
+
+#password-lab {
+   
+}
+
+/* \/CAIXAS DE TEXTO LINK E IMPUT\/ */
+
+#login-id {
+   
+}
+
+#password-id {
+   
+}
+
+#entrar-id {
+   
+}
+
+#lost-pass-id {
+
+}
+}
