@@ -26,6 +26,9 @@ main {
     justify-content: center;
 }
 
+.div-all{
+    white-space: nowrap;
+}
 
 
 #formulario{
