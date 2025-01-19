@@ -47,7 +47,7 @@ p{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0px 0px 5px 4px black;
+    box-shadow: 0px 0px 15px 2px black;
     height: 300px;
     width: 820px;
 }
@@ -71,7 +71,7 @@ p{
 #formulario {
     display: flex;
     flex-direction: column;
-    width: 1142px;
+    width: 100%;
     padding: 10px;
 
 }
@@ -99,14 +99,17 @@ p{
     
     margin-top: 3px;
     border-radius: 7px;
-    padding: 4px;
+    padding: 7px;
     text-align: center;
     font-size: 17px;
+    font-weight: bolder;
     background-color: #ffffff;
-    color: #b30000;
+    color: rgb(179, 0, 0);
+    border: 2px solid #630000;
 }
 
 #entrar-id{
+    font-weight: bolder;
     height: 40px;
     background-color: #630000;
     color: white;
@@ -118,7 +121,7 @@ p{
     margin-top: 1.4px;
     height: 28px;
     border-radius: 0px 8px 8px 0px;
-    width:92.7%;
+    width:91.5%;
     text-align: center;
     font-size: 17px;
 } 
@@ -127,14 +130,15 @@ p{
     content: "\263A";
     background-color: #630000;
     padding: 6px 7px 8px 7px;
+    border-radius: 8px 0px 0px 8px;
     
 }
 
 #password-id{
     border: 2px solid #630000;
-    height: 1.70em;
+    height: 28px;
     border-radius: 0px 8px 8px 0px;
-    width: 92.7%;
+    width:91.5%;
     text-align: center;
     font-size: 17px;
     
@@ -144,7 +148,8 @@ p{
     content: "\1F511";
     color: white;
     background-color: #630000;
-    padding: 0.4em 0.4em 0.5em 0.1em;
+    padding: 6px 1px 8px 7px;
+    border-radius: 8px 0px 0px 8px;
 }
 
 
