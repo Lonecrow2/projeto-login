@@ -27,11 +27,17 @@ main {
 }
 
 h1{
+    text-align: center;
     margin: 10px 0px;
 }
 
 p{
+    font-size: 15px;
     margin: 10px 0px;
+}
+
+a{
+    text-decoration: none;
 }
 
 form{
@@ -45,7 +51,8 @@ form{
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.514);
     display: flex;
-    width: 80vw;
+    width: 1000px;
+    height: 300px;
 }
 
 #formulario2{
@@ -54,6 +61,7 @@ form{
 }
 
 .div-all{
+    margin-top: 5px;
     border-radius: 10px;
     background-color: #680000;
     white-space: nowrap;
@@ -65,7 +73,7 @@ form{
     font-size: 20px;
     text-align: center;
     height: 30px;
-    width: 95%;
+    width: 460px;
     border-radius: 0px 8px 8px 0px;
 }
 
@@ -79,6 +87,9 @@ form{
 }
 
 #imagem{
+    border-radius: 0px 15px 15px 0px;
+    background-image: url(../imagens/back-red.jpg);
+    background-size: 100% 100%;
     width: 100vw;
 }
 
@@ -93,6 +104,29 @@ form{
     text-align: center;
     height: 30px;
     border: 2px solid #8d0000;
-    width: 95%;
+    width: 460px;
     border-radius: 0px 8px 8px 0px;
+}
+
+#entrar-id{
+    margin-top: 5px;
+    width: 494px;
+    height: 45px;
+    color: white;
+    font-weight: bold;
+    background-color: #680000;
+    border-radius: 8px;
+    border: none;
+}
+
+#lost-pass-id{
+    width: 474px;
+    font-weight: bold;
+    color: #680000;
+    margin-top: 5px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid #680000;
+    background-color: white;
 }
