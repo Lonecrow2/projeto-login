@@ -2,7 +2,6 @@
 
 body,
 html {
-    position: relative;
     padding: 0;
     margin: 0;
     width: 100vw;
@@ -20,9 +19,27 @@ body {
 }
 
 main {
-    position: absolute;
+    display: flex;
     width: 100vw;
-    border-radius: 15px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
 
+
+#formulario{
+    
+    background-color: rgba(255, 255, 255, 0.514);
+    display: flex;
+    width: 80vw;
+}
+
+#formulario2{
+    
+    padding: 10px;
+}
+
+#imagem > img{
+    width: 300px;
+}
