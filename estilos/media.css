@@ -1,110 +1,199 @@
 @charset "UTF8";
 
-@media (max-width: 1000px){
+
+/* \/ Tablet - \/ */
+
+@media (max-width: 1000px) {
 
 
-body,
-html {
+    body,
+    html {}
+
+    body {}
+
+    * {}
+
+    main {}
+
+    h1 {
+        font-size: 20px;
+        margin: 0px 0px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    a {}
+
+    form {}
+
+    /* \/DIV\/ */
+
+    #formulario {
+        display: flex;
+        width: 600px;
+        height: 250px;
+    }
+
+    #formulario2 {
+        display: flex;
+        flex-direction: column;
+        order: 2;
+    }
+
+    .div-all {
+        display: flex;
+        width: 290px;
+        margin-top: 4px;
+    }
+
+    #imagem {
+        display: flex;
+        border-radius: 15px 0px 0px 15px;
+    }
+
+    /* \/IMAGEM\/ */
+
+
+    #imagem>img {}
+
+    /* \/LABEL\/ */
+
+    #login-lab {
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    #password-lab {}
+
+    /* \/CAIXAS DE TEXTO LINK E IMPUT\/ */
+
+    #login-id {
+
+        height: 20px;
+        font-size: 15px;
+
+    }
+
+    #password-id {
+
+        height: 20px;
+        font-size: 15px;
+    }
+
+    #entrar-id {
+        width: 290px;
+        height: 30px;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    #lost-pass-id {
+        padding: 3px;
+        width: 280px;
+
+    }
 
 }
 
-body {
-    
-}
+/*-------------------------------------------------------------CELULAR------------------------------------------------------------------*/
 
-* {
-  
-}
-
-main {
-
-}
-
-h1 {
-    font-size: 20px;
-    margin: 0px 0px;
-}
-
-p {
-    font-size: 13px;
-}
-
-a {
-    
-}
-
-form {
-    
-}
-
-/* \/DIV\/ */
-
-#formulario {
-    display: flex;
-    width: 600px;
-    height: 250px;
-}
-
-#formulario2 {
-   display: flex;
-   flex-direction: column;
-   order: 2;
-}
-
-.div-all {
-    display: flex;
-    width: 290px;
-    margin-top: 4px;
-}
-
-#imagem {
-   display: flex;
-   border-radius: 15px 0px 0px 15px;
-}
-
-/* \/IMAGEM\/ */
+@media (max-width: 600px) {
 
 
-#imagem>img {
-    
-}
+    body,
+    html {}
 
-/* \/LABEL\/ */
+    body {}
 
-#login-lab {
-   border-radius: 10px 0px 0px 10px;
-}
+    * {}
 
-#password-lab {
-   
-}
+    main {}
 
-/* \/CAIXAS DE TEXTO LINK E IMPUT\/ */
+    h1 {
+        font-size: 20px;
+        margin: 16px 0px;
+    }
 
-#login-id {
-  
-   height: 20px;
-   font-size: 15px;
-   
-}
+    p {
+        font-size: 13px;
+    }
 
-#password-id {
-   
-   height: 20px;
-   font-size: 15px;
-}
+    a {}
 
-#entrar-id {
-    width: 290px;
-    height: 30px;
-    font-size: 15px;
-    padding: 5px;
-}
+    form {}
 
-#lost-pass-id{
-    padding: 3px;
-    width: 280px;
-    
-}
+    /* \/DIV\/ */
+
+    #formulario {
+        display: flex;
+        width: 320px;
+        height: 98%;
+        flex-direction: column;
+    }
+
+    #formulario2 {
+        display: flex;
+        flex-direction: column;
+        order: 2;
+        width: 93%;
+    }
+
+    .div-all {
+        display: flex;
+        width: 290px;
+        margin-top: 4px;
+    }
+
+    #imagem {
+        display: flex;
+        border-radius: 15px 15px 0px 0px;
+        height: 35%;
+        width: 100%;
+    }
+
+    /* \/IMAGEM\/ */
+
+
+    #imagem>img {}
+
+    /* \/LABEL\/ */
+
+    #login-lab {
+        margin-top: 5px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    #password-lab {
+        margin-top: 5px;
+    }
+
+    /* \/CAIXAS DE TEXTO LINK E IMPUT\/ */
+
+    #login-id {
+
+        height: 30px;
+        font-size: 15px;
+
+    }
+
+    #password-id {
+
+        height: 30px;
+        font-size: 15px;
+    }
+
+    #entrar-id {
+        width: 290px;
+        height: 30px;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    #lost-pass-id {
+        padding: 3px;
+        width: 280px;
+
+    }
 
 }
