@@ -54,12 +54,13 @@ form {
     display: flex;
     width: 1000px;
     height: 300px;
+    transition: width .3s, height .3s;
 }
 
 #formulario2 {
     width: 100vw;
     padding: 10px;
-
+    
 }
 
 .div-all {

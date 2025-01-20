@@ -21,12 +21,14 @@
         display: flex;
         width: 600px;
         height: 250px;
+        transition: width .3s, height .3s;
     }
 
     #formulario2 {
         display: flex;
         flex-direction: column;
         order: 2;
+        
     }
 
     .div-all {
@@ -102,6 +104,7 @@
         display: flex;
         width: 320px;
         height: 80%;
+        transition: width .3s, height .3s;
         flex-direction: column;
     }
 
@@ -110,6 +113,7 @@
         flex-direction: column;
         order: 2;
         width: 93%;
+        
     }
 
     .div-all {
@@ -187,9 +191,10 @@
     #formulario {
         height: 600px;
         width: 1550px;
+        transition: width .3s, height .3s;
     }
 
-
+   
 
     .div-all {
 
