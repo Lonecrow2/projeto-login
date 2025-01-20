@@ -1,20 +1,9 @@
 @charset "UTF8";
 
 
-/* \/ Tablet - \/ */
+/*-----------------------------------------------Tablet---------------------------------------------------------------------------------*/
 
 @media (max-width: 1000px) {
-
-
-    body,
-    html {}
-
-    body {}
-
-    * {}
-
-    main {}
-
     h1 {
         font-size: 20px;
         margin: 0px 0px;
@@ -24,9 +13,7 @@
         font-size: 13px;
     }
 
-    a {}
 
-    form {}
 
     /* \/DIV\/ */
 
@@ -56,7 +43,6 @@
     /* \/IMAGEM\/ */
 
 
-    #imagem>img {}
 
     /* \/LABEL\/ */
 
@@ -100,16 +86,6 @@
 
 @media (max-width: 600px) {
 
-
-    body,
-    html {}
-
-    body {}
-
-    * {}
-
-    main {}
-
     h1 {
         font-size: 20px;
         margin: 16px 0px;
@@ -119,9 +95,6 @@
         font-size: 13px;
     }
 
-    a {}
-
-    form {}
 
     /* \/DIV\/ */
 
@@ -152,10 +125,7 @@
         width: 100%;
     }
 
-    /* \/IMAGEM\/ */
 
-
-    #imagem>img {}
 
     /* \/LABEL\/ */
 
@@ -194,6 +164,78 @@
         padding: 3px;
         width: 280px;
 
+    }
+
+}
+
+/*--------------------------------------------------Grandes Resoluções------------------------------------------------------------------*/
+
+@media (min-width: 1600px) {
+
+    h1 {
+        margin: 12px 0px;
+        font-size: 59px;
+    }
+
+    p {
+        font-size: 27px;
+        padding: 21px;
+    }
+
+
+
+    #formulario {
+        height: 600px;
+        width: 1550px;
+    }
+
+
+
+    .div-all {
+        
+        margin-top: 20px;
+
+    }
+
+
+
+
+
+    /* \/LABEL\/ */
+
+    #login-lab {
+        font-size: 39px;
+    }
+
+    #password-lab {
+        font-size: 39px;
+    }
+
+    /* \/CAIXAS DE TEXTO LINK E IMPUT\/ */
+
+    #login-id {
+        font-size: 44px;
+        height: 60px;
+        width: 698px;
+    }
+
+    #password-id {
+        font-size: 44px;
+        height: 60px;
+        width: 698px;
+    }
+
+    #entrar-id {
+        margin-top: 20px;
+        font-size: 44px;
+        height: 67px;
+        width: 767px;
+    }
+
+    #lost-pass-id {
+        font-size: 44px;
+        height: 67px;
+        width: 748px;
     }
 
 }
