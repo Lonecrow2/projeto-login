@@ -128,7 +128,7 @@
     #formulario {
         display: flex;
         width: 320px;
-        height: 98%;
+        height: 80%;
         flex-direction: column;
     }
 
